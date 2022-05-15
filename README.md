@@ -10,7 +10,7 @@ Repository containing portfolio of data science projects completed by me for aca
 [Identification of Rice Varities](https://github.com/PrashantRaghuwanshi90/Data_Science_Portfolio/blob/4110a9c2b3b71c0a27b881f2209edccb73f7e586/Identification%20of%20Rice%20Varities/IdentificationOfriceVarities_Classification_Notebook_Prashant_Raghuwanshi.ipynb)
 (Supervised-Classification)
 A model to predict the Variety of a Rice grain from the given preprocessed images of rice samples datasets by using multiple Classification ML Algorithms.
-<br><img src="portfolio_html/images/classification_problem.jpg?raw=true"/>
+<br><img src="portfolio_html/images/ml_identification_rice.jpg?raw=true"/>
 
 ---
 
