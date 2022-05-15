@@ -27,21 +27,21 @@ In essence, these applications pull valuable information and insights out of vis
 (Supervised-Regression)
 A model to Analyze a health insurance company's data to predict future insurance claim amounts and identify factors that lead to higher healthcare costs.
 
-<img src="portfolio_html/images/claim.png?raw=true"/>
+<img src="portfolio_html/images/claim.jpg?raw=true"/>
 
 ----
 
 [Financial services customers clusters](https://github.com/PrashantRaghuwanshi90/Data_Science_Portfolio/blob/6a39cdf3c8c782b693fd454f19eeda982c6341c7/Financial%20Services%20Marketing%20Clusters/financial_services_marketing_clusters_notebook.ipynb)
 (Unsupervised-Clustering)
 This project aims to take the collected data from the ATUS survey and determine which of these factors best identifies a respondent who may need financial services. The theory is that gainfully employed individuals supporting themselves or their families will likely need access to financial services provided by banking institutions, such as savings accounts and certificates of deposit (CDs).
-<br><img src="portfolio_html/images/Unsupervise_clustring.png?raw=true"/>
+<br><img src="portfolio_html/images/financ_ml.jpg?raw=true"/>
 
 ---
 
 [Hotel Recommendation System](https://github.com/PrashantRaghuwanshi90/Data_Science_Portfolio/blob/f0e4efd7e085e5846c6bc30e8aa2181222856cc3/Hotel%20Recommendation%20System/Hotel_Recommendation_System.ipynb)
 (Content & Hybrid Recommendation)
 This model is fed with AIRBNB hotel data and uses Content-Based & Hybrid Recommendation Systems to generate the recommendation of the top 5 hotel cluster-id suited for the hotel website user.
-<br><img src="portfolio_html/images/content_rec.png?raw=true"/>
+<br><img src="portfolio_html/images/hotelml.jpg?raw=true"/>
 
 ----
 [Detect Autistics disease among the toddlers](https://github.com/PrashantRaghuwanshi90/Data_Science_Portfolio/blob/7e491a84f3e05479cf95cbe72a5d5eb9fb8ea566/Detect%20Autistics%20disease%20among%20the%20toddlers/Detect%20Autistics%20disease%20among%20the%20toddlers_Project_Code%20.ipynb)
