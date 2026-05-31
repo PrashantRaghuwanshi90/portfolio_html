@@ -931,23 +931,36 @@
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-					<form action="" class="site-form">
+					<!--
+						Contact form is wired to Formspree (text-only, no file uploads → no virus/malware risk).
+						To activate:
+						  1) Sign up at https://formspree.io with prashant.sraghuwanshi@gmail.com
+						  2) Create a new form, copy your form ID (e.g. "xrgklqab")
+						  3) Replace YOUR_FORMSPREE_ID below with that ID
+					-->
+					<form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="site-form" id="contact-form" autocomplete="off">
 						<h3 class="mb-5">Get In Touch</h3>
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+							<input type="text" name="name" class="form-control px-3 py-4" placeholder="Your Name" required maxlength="80" pattern="[A-Za-z0-9 .,'\-]+" title="Letters, numbers, spaces, and . , ' - only">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+							<input type="email" name="email" class="form-control px-3 py-4" placeholder="Your Email" required maxlength="120">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+							<input type="tel" name="phone" class="form-control px-3 py-4" placeholder="Your Phone (optional)" maxlength="25" pattern="[0-9 +\-()]*" title="Digits and + - ( ) only">
 						</div>
 						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+							<textarea name="message" class="form-control px-3 py-4" cols="30" rows="10" placeholder="Write a Message" required minlength="10" maxlength="2000"></textarea>
 						</div>
+						<!-- Honeypot anti-bot field (hidden from real users; bots fill it) -->
+						<div style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;" aria-hidden="true">
+							<label>Leave this field empty: <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+						</div>
+						<input type="hidden" name="_subject" value="New message from portfolio site">
 						<div class="form-group">
 							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
 						</div>
+						<p class="small mt-3" style="opacity:.7;">Text only · no file attachments · spam-filtered.</p>
 					</form>
 				</div>
 				<div class="col-md-5 pl-md-5">
