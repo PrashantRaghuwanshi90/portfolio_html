@@ -32,6 +32,6 @@
       <circle cx="300" cy="350" r="22" fill="#000" stroke="#92d050" stroke-width="1.8"/>
       <text x="284" y="354">Tools</text>
     </g>
-    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">AGENTS &middot; MCP &middot; TOOL CALLING</text>
+    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">AGENTS &#183; MCP &#183; TOOL CALLING</text>
   </g>
 </svg>
