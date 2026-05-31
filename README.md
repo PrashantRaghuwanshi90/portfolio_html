@@ -13,7 +13,7 @@ This repository hosts my portfolio site. The notebooks and academic work below l
 
 ---
 
-## 🚀 Featured Enterprise AI / GenAI Work (Deere & Company)
+## 🚀 Featured Enterprise AI / GenAI Work
 
 - **Agentic AI Digital Teammate** — production-support copilot on Copilot Agent SDK + MCP, multi-orchestrator framework, ephemeral compute sandboxes, RCA, observability ingestion, human-in-the-loop auto-PR.
 - **Enterprise AI Gateway** — provider integrations, model registration, scalable rate limiting, governance workflows.
@@ -23,7 +23,7 @@ This repository hosts my portfolio site. The notebooks and academic work below l
 - **Unified Data Platform (UDP) — Full-Stack** — React + TypeScript SPA, Node.js / Python Dataset APIs, GenAI synthetic-data service (~5 ms response on DynamoDB).
 - **Enterprise Data Lake (EDL) Optimization** — ~7 PB vacuum cleanup; Grant Job 1.9 hr → 16 min (~500K ACL calls eliminated); EDL tables coverage 25K → 160K.
 - **MLOps / LLMOps Modernization on Databricks** — MLflow + non-MLflow paths, YAML-driven model registration, Datadog APM + LLM tracing, Unity Catalog governance.
-- **DeereAI Streaming Optimization** — 9 hr → 1 hr end-to-end latency, ~10× throughput.
+- **Enterprise Streaming Optimization** — 9 hr → 1 hr end-to-end latency, ~10× throughput.
 - **Winter Hackathon — OpenAI Batch API** — ~$1M+ annualized LLM-cost savings.
 
 ---
