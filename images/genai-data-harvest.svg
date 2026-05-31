@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0a"/><stop offset="100%" stop-color="#1a2c1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="40" y="62" fill="#92d050" font-size="13" letter-spacing="3">AI DATA HARVEST</text>
+    <text x="40" y="94" fill="#fff" font-size="22" font-weight="700">Conversation Insights</text>
+    <g transform="translate(40,130)">
+      <circle cx="40" cy="60" r="22" fill="#000" stroke="#92d050" stroke-width="2"/>
+      <text x="32" y="66" fill="#92d050" font-size="14">&#128172;</text>
+      <line x1="62" y1="60" x2="120" y2="60" stroke="#92d050" stroke-dasharray="4 3"/>
+      <rect x="120" y="38" width="180" height="44" rx="6" fill="#000" stroke="#92d050"/>
+      <text x="132" y="58" fill="#cfe9a8" font-size="11">cluster &middot; topic &middot; intent</text>
+      <text x="132" y="74" fill="#cfe9a8" font-size="11">sentiment &middot; trend</text>
+    </g>
+    <g transform="translate(40,230)" fill="none" stroke="#92d050" stroke-width="2">
+      <rect width="320" height="120" rx="8" fill="#0f1a0f"/>
+      <polyline points="14,90 50,70 86,82 122,50 158,62 194,40 230,52 266,28 302,40" />
+      <polyline points="14,108 50,100 86,104 122,88 158,96 194,82 230,90 266,72 302,80" stroke="#3a8a3a" stroke-dasharray="3 3"/>
+      <line x1="14" y1="110" x2="306" y2="110" stroke="#3a5a3a"/>
+    </g>
+    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">CHATBOT TELEMETRY &middot; TRENDS &middot; SEASONALITY</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0a"/><stop offset="100%" stop-color="#1a2c1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g1)"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#92d050">
+    <text x="40" y="90" font-size="22" font-weight="700">Natural Language</text>
+    <text x="40" y="118" font-size="14" fill="#cfe9a8">"Top 10 dealers by Q3 revenue?"</text>
+    <g transform="translate(40,150)" stroke="#92d050" stroke-width="2" fill="none">
+      <path d="M0 25 L320 25" stroke-dasharray="5 4"/>
+      <polygon points="320,18 332,25 320,32" fill="#92d050"/>
+    </g>
+    <rect x="40" y="190" width="320" height="160" rx="8" fill="#000" stroke="#92d050" stroke-width="1.5"/>
+    <text x="56" y="218" font-size="13" font-family="Menlo, monospace" fill="#92d050">SELECT dealer_id, region,</text>
+    <text x="56" y="238" font-size="13" font-family="Menlo, monospace" fill="#cfe9a8">       SUM(revenue) AS rev</text>
+    <text x="56" y="258" font-size="13" font-family="Menlo, monospace" fill="#cfe9a8">FROM   sales_fact</text>
+    <text x="56" y="278" font-size="13" font-family="Menlo, monospace" fill="#cfe9a8">WHERE  quarter = 'Q3'</text>
+    <text x="56" y="298" font-size="13" font-family="Menlo, monospace" fill="#cfe9a8">GROUP  BY dealer_id, region</text>
+    <text x="56" y="318" font-size="13" font-family="Menlo, monospace" fill="#cfe9a8">ORDER  BY rev DESC LIMIT 10;</text>
+    <text x="40" y="378" font-size="12" fill="#92d050" letter-spacing="2">NLQ &#8594; SQL  &middot;  CONVERSATIONAL ANALYTICS</text>
+  </g>
+</svg>
