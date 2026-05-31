@@ -931,37 +931,14 @@
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-					<!--
-						Contact form is wired to Formspree (text-only, no file uploads → no virus/malware risk).
-						To activate:
-						  1) Sign up at https://formspree.io with prashant.sraghuwanshi@gmail.com
-						  2) Create a new form, copy your form ID (e.g. "xrgklqab")
-						  3) Replace YOUR_FORMSPREE_ID below with that ID
-					-->
-					<form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="site-form" id="contact-form" autocomplete="off">
-						<h3 class="mb-5">Get In Touch</h3>
-						<div class="form-group">
-							<input type="text" name="name" class="form-control px-3 py-4" placeholder="Your Name" required maxlength="80" pattern="[A-Za-z0-9 .,'\-]+" title="Letters, numbers, spaces, and . , ' - only">
-						</div>
-						<div class="form-group">
-							<input type="email" name="email" class="form-control px-3 py-4" placeholder="Your Email" required maxlength="120">
-						</div>
-						<div class="form-group">
-							<input type="tel" name="phone" class="form-control px-3 py-4" placeholder="Your Phone (optional)" maxlength="25" pattern="[0-9 +\-()]*" title="Digits and + - ( ) only">
-						</div>
-						<div class="form-group mb-5">
-							<textarea name="message" class="form-control px-3 py-4" cols="30" rows="10" placeholder="Write a Message" required minlength="10" maxlength="2000"></textarea>
-						</div>
-						<!-- Honeypot anti-bot field (hidden from real users; bots fill it) -->
-						<div style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;" aria-hidden="true">
-							<label>Leave this field empty: <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
-						</div>
-						<input type="hidden" name="_subject" value="New message from portfolio site">
-						<div class="form-group">
-							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
-						</div>
-						<p class="small mt-3" style="opacity:.7;">Text only · no file attachments · spam-filtered.</p>
-					</form>
+					<h3 class="mb-4">Get In Touch</h3>
+					<p class="mb-4" style="font-size:1.05rem;">Best way to reach me is over <strong>email</strong>. I read every message and reply within a couple of business days.</p>
+					<p class="mb-4">
+						<a href="mailto:prashant.sraghuwanshi@gmail.com?subject=Hello%20from%20your%20portfolio%20site" class="btn btn-primary px-4 py-3">
+							📧 Email Me
+						</a>
+					</p>
+					<p class="small" style="opacity:.75;">Or connect on <a href="https://www.linkedin.com/in/prashant-raghuwanshi-78945a33" target="_blank" rel="noopener">LinkedIn</a>.</p>
 				</div>
 				<div class="col-md-5 pl-md-5">
 					<h3 class="mb-5">My Contact Details</h3>
