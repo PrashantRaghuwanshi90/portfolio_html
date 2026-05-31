@@ -24,6 +24,6 @@
       <path d="M0 30 L40 30" stroke-width="2"/>
       <polygon points="40,22 50,30 40,38" fill="#92d050"/>
     </g>
-    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">BATCH FILE TRACING &middot; EVAL &middot; OBSERVABILITY</text>
+    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">BATCH FILE TRACING &#183; EVAL &#183; OBSERVABILITY</text>
   </g>
 </svg>
