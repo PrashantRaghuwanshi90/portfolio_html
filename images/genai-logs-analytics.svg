@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0a"/><stop offset="100%" stop-color="#1a2c1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="40" y="60" fill="#92d050" font-size="13" letter-spacing="3">DATA-PRODUCT INTELLIGENCE</text>
+    <text x="40" y="92" fill="#fff" font-size="22" font-weight="700">AI/ML Logs Analytics</text>
+    <g transform="translate(40,120)" font-family="Menlo, monospace" font-size="10">
+      <rect width="320" height="110" rx="6" fill="#000" stroke="#3a5a3a"/>
+      <text x="12" y="22" fill="#cfe9a8">2026-05-30 14:02:11  pipeline=sales_etl  status=OK</text>
+      <text x="12" y="40" fill="#cfe9a8">2026-05-30 14:08:47  pipeline=cust_360   status=OK</text>
+      <text x="12" y="58" fill="#e0a060">2026-05-30 14:14:02  pipeline=sales_etl  WARN  skew</text>
+      <text x="12" y="76" fill="#e07b7b">2026-05-30 14:19:33  pipeline=sales_etl  ERROR retry</text>
+      <text x="12" y="94" fill="#92d050">2026-05-30 14:21:18  ml.recommendation: scale-out cluster</text>
+    </g>
+    <g transform="translate(40,250)">
+      <rect width="320" height="100" rx="8" fill="#0f1a0f" stroke="#92d050" stroke-width="2"/>
+      <text x="16" y="26" fill="#92d050" font-size="13" font-weight="700">RECOMMENDATIONS</text>
+      <text x="16" y="48" fill="#cfe9a8" font-size="11">&#8226; Re-partition skewed key dealer_id</text>
+      <text x="16" y="66" fill="#cfe9a8" font-size="11">&#8226; Increase executor memory by 2&#215;</text>
+      <text x="16" y="84" fill="#cfe9a8" font-size="11">&#8226; Cache lookup table sales_dim</text>
+    </g>
+    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">UNIFIED DATA PLATFORM &middot; AUTO-ADVICE</text>
+  </g>
+</svg>

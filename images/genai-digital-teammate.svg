@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0a"/><stop offset="100%" stop-color="#1a2c1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="40" y="56" fill="#92d050" font-size="13" letter-spacing="3">DIGITAL TEAMMATE</text>
+    <text x="40" y="86" fill="#fff" font-size="20" font-weight="700">Agentic ProdSupport Co-Pilot</text>
+    <g transform="translate(30,110)" font-size="10">
+      <rect x="0" y="0" width="80" height="40" rx="4" fill="#000" stroke="#92d050"/>
+      <text x="10" y="16" fill="#92d050" font-weight="700">CloudWatch</text>
+      <text x="10" y="30" fill="#cfe9a8">alerts &middot; metrics</text>
+      <rect x="0" y="50" width="80" height="40" rx="4" fill="#000" stroke="#92d050"/>
+      <text x="10" y="66" fill="#92d050" font-weight="700">App Logs</text>
+      <text x="10" y="80" fill="#cfe9a8">traces &middot; errors</text>
+      <rect x="0" y="100" width="80" height="40" rx="4" fill="#000" stroke="#92d050"/>
+      <text x="10" y="116" fill="#92d050" font-weight="700">Repo &middot; PRs</text>
+      <text x="10" y="130" fill="#cfe9a8">code context</text>
+      <line x1="80" y1="20" x2="130" y2="60" stroke="#92d050" stroke-dasharray="3 3"/>
+      <line x1="80" y1="70" x2="130" y2="70" stroke="#92d050" stroke-dasharray="3 3"/>
+      <line x1="80" y1="120" x2="130" y2="80" stroke="#92d050" stroke-dasharray="3 3"/>
+      <rect x="130" y="40" width="120" height="60" rx="8" fill="#0f1a0f" stroke="#92d050" stroke-width="2"/>
+      <text x="148" y="62" fill="#92d050" font-size="12" font-weight="700">COPILOT AGENT</text>
+      <text x="148" y="78" fill="#cfe9a8" font-size="9">MCP &middot; orchestrator</text>
+      <text x="148" y="92" fill="#cfe9a8" font-size="9">isolated sandbox</text>
+      <line x1="250" y1="60" x2="298" y2="30" stroke="#92d050"/>
+      <line x1="250" y1="70" x2="298" y2="70" stroke="#92d050"/>
+      <line x1="250" y1="80" x2="298" y2="110" stroke="#92d050"/>
+      <rect x="298" y="10" width="78" height="40" rx="4" fill="#000" stroke="#92d050"/>
+      <text x="308" y="26" fill="#92d050" font-weight="700">RCA</text>
+      <text x="308" y="40" fill="#cfe9a8">analysis</text>
+      <rect x="298" y="55" width="78" height="40" rx="4" fill="#000" stroke="#92d050"/>
+      <text x="308" y="71" fill="#92d050" font-weight="700">Auto-PR</text>
+      <text x="308" y="85" fill="#cfe9a8">small fixes</text>
+      <rect x="298" y="100" width="78" height="40" rx="4" fill="#000" stroke="#92d050"/>
+      <text x="308" y="116" fill="#92d050" font-weight="700">Alert</text>
+      <text x="308" y="130" fill="#cfe9a8">on-call ping</text>
+    </g>
+    <g transform="translate(40,290)">
+      <rect width="320" height="56" rx="8" fill="#0f1a0f" stroke="#92d050" stroke-width="1.5"/>
+      <text x="14" y="22" fill="#92d050" font-size="11" font-weight="700">HUMAN-IN-THE-LOOP</text>
+      <text x="14" y="42" fill="#cfe9a8" font-size="11">engineer reviews &amp; approves agent-generated fixes</text>
+    </g>
+    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">COPILOT SDK &middot; MCP &middot; MULTI-ORCHESTRATOR</text>
+  </g>
+</svg>
