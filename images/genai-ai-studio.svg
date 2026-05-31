@@ -24,6 +24,6 @@
       <polyline points="14,140 60,120 110,128 160,100 210,108 260,82 306,90" fill="none" stroke="#92d050" stroke-width="2"/>
       <line x1="14" y1="140" x2="306" y2="140" stroke="#3a5a3a"/>
     </g>
-    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">LLM &middot; UX PROTOTYPING &middot; LOW-CODE</text>
+    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">LLM &#183; UX PROTOTYPING &#183; LOW-CODE</text>
   </g>
 </svg>

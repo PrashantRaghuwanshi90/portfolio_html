@@ -19,6 +19,6 @@
     <text x="56" y="278" font-size="13" font-family="Menlo, monospace" fill="#cfe9a8">WHERE  quarter = 'Q3'</text>
     <text x="56" y="298" font-size="13" font-family="Menlo, monospace" fill="#cfe9a8">GROUP  BY dealer_id, region</text>
     <text x="56" y="318" font-size="13" font-family="Menlo, monospace" fill="#cfe9a8">ORDER  BY rev DESC LIMIT 10;</text>
-    <text x="40" y="378" font-size="12" fill="#92d050" letter-spacing="2">NLQ &#8594; SQL  &middot;  CONVERSATIONAL ANALYTICS</text>
+    <text x="40" y="378" font-size="12" fill="#92d050" letter-spacing="2">NLQ &#8594; SQL  &#183;  CONVERSATIONAL ANALYTICS</text>
   </g>
 </svg>

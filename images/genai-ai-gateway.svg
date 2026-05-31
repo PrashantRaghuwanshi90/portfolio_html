@@ -17,7 +17,7 @@
       <text x="34" y="122">Notebooks</text>
       <rect x="150" y="40" width="100" height="60" rx="6" fill="#0f1a0f" stroke="#92d050" stroke-width="2"/>
       <text x="166" y="62" fill="#92d050" font-weight="700">GATEWAY</text>
-      <text x="166" y="82" fill="#cfe9a8" font-size="9">auth &middot; rate &middot; route</text>
+      <text x="166" y="82" fill="#cfe9a8" font-size="9">auth &#183; rate &#183; route</text>
       <line x1="100" y1="18" x2="150" y2="55" stroke="#92d050"/>
       <line x1="100" y1="68" x2="150" y2="70" stroke="#92d050"/>
       <line x1="100" y1="118" x2="150" y2="85" stroke="#92d050"/>
@@ -34,6 +34,6 @@
       <line x1="250" y1="75" x2="290" y2="96" stroke="#92d050"/>
       <line x1="250" y1="85" x2="290" y2="136" stroke="#92d050"/>
     </g>
-    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">MULTI-PROVIDER &middot; RBAC &middot; OBSERVABILITY</text>
+    <text x="40" y="378" fill="#92d050" font-size="12" letter-spacing="2">MULTI-PROVIDER &#183; RBAC &#183; OBSERVABILITY</text>
   </g>
 </svg>
