@@ -1,0 +1,5 @@
+# Personal resume & profile source documents — keep local only, do not commit
+*.docx
+linkedin-profile.md
+resume-updated-2026.md
+resume-enrichments.md
