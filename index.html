@@ -133,6 +133,8 @@
 							<li>AI/ML Platform Architecture</li>
 							<li>MLOps / LLMOps / Model Lifecycle</li>
 							<li>Responsible AI / Governance / Guardrails</li>
+							<li>AI Use-Case Governance &amp; Registration (Git/YAML)</li>
+							<li>Data Access Governance &amp; ACL Automation</li>
 							<li>Agent Evaluation / Automated &amp; Simulation-Based Evals</li>
 							<li>Regression &amp; Continuous-Improvement Frameworks</li>
 							<li>Agent Reasoning, Tool Use, Memory &amp; State</li>
@@ -196,6 +198,7 @@
 						<p><strong>Enterprise Data Platforms:</strong> Lakehouse architecture (Databricks, Snowflake, Delta Lake), medallion zones (bronze/silver/gold), data mesh, data products, ingestion frameworks, metadata &amp; lineage, data catalog, data quality, master data management, governance &amp; access controls, self-service analytics enablement.</p>
 						<p><strong>ML / Data Science:</strong> Classical ML, predictive modeling, supervised/unsupervised learning, classification, regression, clustering, feature engineering, model training &amp; evaluation, statistical analysis, EDA.</p>
 						<p><strong>AI Governance / Evaluation / MLOps / LLMOps:</strong> Responsible AI, model governance, guardrails, automated &amp; simulation-based agent evaluations, regression test suites for prompts &amp; agent behaviors, metrics design, continuous-improvement loops, human-in-the-loop, AI observability (LangSmith, Langfuse, Braintrust, Galileo, Datadog LLM tracing, OpenTelemetry), ML lifecycle, CI/CD, safety/reliability standards for autonomous systems.</p>
+						<p><strong>AI &amp; Data Access Governance:</strong> Enterprise AI use-case registration &amp; onboarding (Git-centric YAML), automated user/team governance allocation, provider provisioning across OpenAI / Anthropic (Claude) / AWS Bedrock, Okta-scoped tokens &amp; AI Gateway proxy enforcement (no direct provider calls); Enterprise Data Lake access governance &mdash; event-driven real-time ACL automation across 3,000+ external S3 buckets tied to Rack IDs &amp; AD groups, auto S3 provisioning &amp; Databricks external-storage linking, table grant/approval workflows, Unity Catalog integration, RBAC, audit &amp; policy compliance.</p>
 						<p><strong>Backend Engineering:</strong> Node.js &amp; TypeScript (Express, NestJS, Fastify), JavaScript (ES6+), Python (FastAPI, Flask, Django), REST &amp; GraphQL APIs, gRPC, WebSockets, microservices, API-led connectivity (System / Process / Experience APIs), event-driven architecture, message queues (Kafka, SQS, RabbitMQ), caching (Redis), authN/authZ (OAuth2, JWT, SSO), API gateways.</p>
 						<p><strong>Streaming &amp; Event-Driven Solutions:</strong> Apache Kafka, AWS Kinesis, Azure Event Hubs, Spark Structured Streaming, Flink, change data capture (CDC), pub/sub, event sourcing, CQRS, real-time analytics, stream processing pipelines, exactly-once &amp; at-least-once delivery, schema registry (Avro/Protobuf).</p>
 						<p><strong>Frontend Engineering:</strong> JavaScript (ES6+), TypeScript, React, Next.js, Redux, Angular, HTML5, CSS3, SASS, Tailwind, Bootstrap, responsive &amp; accessible UI, micro-frontends (Module Federation, single-spa), component libraries, design systems, Storybook.</p>
@@ -300,6 +303,8 @@
 							<li><strong>Agentic AI Digital Team Member &mdash; Production Support Co-Pilot</strong> &mdash; autonomous "digital team member" augmenting on-call engineers; built on the GitHub Copilot Agent SDK with an agent-as-router loop self-selecting from 40+ MCP tools (curated GitHub, Datadog, cross-account CloudWatch, governance/ModelGarden, Enterprise Console, web &amp; knowledge-base search) plus Agent-to-Agent (A2A) sub-agent calls; spins up isolated, ephemeral Kubernetes compute sandboxes per conversation to copy logs &amp; code and run root-cause analysis; supports infinite sessions via context auto-compaction, deterministic provenance/citations, and secret redaction; a Control Tower async work-item state machine drives human-in-the-loop auto-PRs for low-risk fixes &mdash; SSE-streamed and auto-scaled on ECS Fargate.</li>
 							<li><strong>Enterprise Agentic AI Platform &mdash; Self-Service &amp; Infinitely Extensible</strong> &mdash; OmniAgent platform where any team onboards agents, MCP tool servers, skills, and evaluations through declarative YAML <code>.deere/</code> manifests (Registration, HostedAgent, Tool/ToolBinding, Skill/SkillBinding); Anvil GitOps &rarr; Lambda provisioning &rarr; reconciler &rarr; OmniAgent GraphQL runtime on EKS. New capabilities become available to all users without code changes; paired with an AI Capability Registry that auto-scans 14,000+ repositories to map AI usage across the enterprise.</li>
 							<li><strong>Director-Recommended Team Agentic AI Platform Showcase</strong> &mdash; packaged and presented a unified platform blueprint spanning Enterprise AI Gateway, OmniAgent, and Digital Team Member patterns, enabling cross-team reuse with consistent governance, observability, and production-readiness standards.</li>
+							<li><strong>AI Governance &amp; Use-Case Registration</strong> &mdash; built and deployed the enterprise AI governance application that prevents teams from calling LLM providers directly: teams register use cases to the AI platform via Git-centric YAML; on registration, user/team governance is auto-allocated and the project is auto-provisioned across OpenAI, Anthropic/Claude, and AWS Bedrock; Okta-issued tokens scoped to the registered use-case name then route all traffic through the AI Gateway proxies &mdash; delivering secure, auditable, policy-compliant LLM access enterprise-wide.</li>
+							<li><strong>Enterprise Data Access Governance (EDL)</strong> &mdash; delivered a fully custom, event-driven real-time ACL automation system for the Enterprise Data Lake governing 3,000+ external S3 buckets mapped to enterprise Rack IDs and AD groups; when a team creates a dataset, the EDL application auto-provisions an S3 bucket and links it to Databricks external storage, enabling unlimited Parquet/data uploads, and when Databricks tables are created over that Parquet, grant management, access provisioning, and approval workflows run automatically &mdash; natively integrated with Databricks Unity Catalog and enterprise identity standards.</li>
 							<li><strong>Enterprise NLQ-to-SQL Analytics</strong> &mdash; enabled business users to query enterprise data in natural language, improving accessibility to analytics and data-driven decision-making.</li>
 							<li><strong>AI Data Harvest Insights</strong> &mdash; AI-driven solution analyzing dealer-facing chatbot interactions to surface trends, seasonality, conversation patterns, and actionable business insights.</li>
 							<li><strong>AI Studio</strong> &mdash; LLM-powered interface integrated with the Unified Data Product platform that transforms product requirements into interactive web prototypes using enterprise data and GenAI workflows.</li>
@@ -468,6 +473,34 @@
 						</div>
 						<div class="p-inner">
 							<h4>Universal Data Product</h4>
+							<div class="cat">Application Development</div>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all Application_Development Data_Engineering">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/app-data-access-governance.svg" alt="" width="400" height="400">
+								<p>Enterprise Data Access Governance (EDL) &mdash; End-to-End Solution</p>
+								<p>Built a fully custom, event-driven real-time ACL governance system for the Enterprise Data Lake &mdash; automating access across 3,000+ external S3 buckets tied to enterprise Rack IDs and Active Directory groups. When a team creates a dataset, the EDL application auto-provisions an S3 bucket and links it to Databricks external storage; teams then upload unlimited data/Parquet files, and when Databricks tables are created over that Parquet, grant management, access provisioning, and approval workflows run automatically &mdash; natively integrated with Databricks Unity Catalog and enterprise identity standards.</p>
+							</div>
+						</div>
+						<div class="p-inner">
+							<h4>Enterprise Data Access Governance (EDL)</h4>
+							<div class="cat">Application Development</div>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all Application_Development GenAI">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/app-ai-governance.svg" alt="" width="400" height="400">
+								<p>AI Governance &amp; Use-Case Registration &mdash; End-to-End Solution</p>
+								<p>Designed and deployed the enterprise AI governance application that prevents teams from calling LLM providers directly. Teams register use cases to the AI platform via Git-centric YAML; on registration, user/team governance is auto-allocated and the project is auto-provisioned across OpenAI, Anthropic/Claude, and AWS Bedrock. Okta-issued tokens scoped to the registered use-case name then route all traffic through the AI Gateway proxies &mdash; delivering secure, auditable, policy-compliant LLM access enterprise-wide.</p>
+							</div>
+						</div>
+						<div class="p-inner">
+							<h4>AI Governance &amp; Use-Case Registration</h4>
 							<div class="cat">Application Development</div>
 						</div>
 					</div>
