@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0a"/><stop offset="100%" stop-color="#1a2c1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="40" y="62" fill="#92d050" font-size="13" letter-spacing="3">APPLICATION DEV</text>
+    <text x="40" y="90" fill="#fff" font-size="21" font-weight="700">Universal Data Product</text>
+    <g transform="translate(200,215)">
+      <circle cx="0" cy="0" r="46" fill="#1f2c0f" stroke="#92d050" stroke-width="2"/>
+      <text x="-40" y="-4" fill="#92d050" font-size="12" font-weight="700">DATA</text>
+      <text x="-40" y="14" fill="#92d050" font-size="12" font-weight="700">PRODUCT</text>
+      <g fill="#000" stroke="#92d050" stroke-width="2" font-family="Helvetica">
+        <g transform="translate(-150,-95)"><rect width="90" height="40" rx="6"/><text x="12" y="25" fill="#cfe9a8" font-size="11" stroke="none">REST API</text></g>
+        <g transform="translate(60,-95)"><rect width="90" height="40" rx="6"/><text x="12" y="25" fill="#cfe9a8" font-size="11" stroke="none">GraphQL</text></g>
+        <g transform="translate(-160,55)"><rect width="90" height="40" rx="6"/><text x="12" y="25" fill="#cfe9a8" font-size="11" stroke="none">SQL / JDBC</text></g>
+        <g transform="translate(70,55)"><rect width="90" height="40" rx="6"/><text x="18" y="25" fill="#cfe9a8" font-size="11" stroke="none">Streams</text></g>
+      </g>
+      <g stroke="#92d050" stroke-dasharray="4 3">
+        <line x1="-40" y1="-30" x2="-95" y2="-55"/>
+        <line x1="40" y1="-30" x2="95" y2="-55"/>
+        <line x1="-40" y1="30" x2="-105" y2="55"/>
+        <line x1="40" y1="30" x2="105" y2="55"/>
+      </g>
+    </g>
+    <text x="40" y="372" fill="#3a8a3a" font-size="12">contract &#183; SLA &#183; discoverable &#183; addressable &#183; self-serve</text>
+  </g>
+</svg>

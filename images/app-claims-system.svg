@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0a"/><stop offset="100%" stop-color="#1a2c1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="40" y="62" fill="#92d050" font-size="13" letter-spacing="3">APPLICATION DEV</text>
+    <text x="40" y="92" fill="#fff" font-size="23" font-weight="700">Claims System</text>
+    <g transform="translate(40,120)" fill="#000" stroke="#92d050" stroke-width="2" font-family="Helvetica">
+      <g><rect x="0" y="10" width="150" height="40" rx="6" fill="#0f1a0f"/><text x="12" y="35" fill="#92d050" font-size="12" stroke="none">Submit / FNOL</text></g>
+      <g><rect x="0" y="66" width="150" height="40" rx="6" fill="#0f1a0f"/><text x="12" y="91" fill="#92d050" font-size="12" stroke="none">Validate / Rules</text></g>
+      <g><rect x="0" y="122" width="150" height="40" rx="6" fill="#0f1a0f"/><text x="12" y="147" fill="#92d050" font-size="12" stroke="none">Adjudicate</text></g>
+      <g><rect x="0" y="178" width="150" height="40" rx="6" fill="#0f1a0f"/><text x="12" y="203" fill="#92d050" font-size="12" stroke="none">Pay / Settle</text></g>
+      <g stroke-dasharray="4 3">
+        <line x1="75" y1="50" x2="75" y2="66"/><line x1="75" y1="106" x2="75" y2="122"/><line x1="75" y1="162" x2="75" y2="178"/>
+      </g>
+      <g transform="translate(180,10)">
+        <rect width="140" height="208" rx="6" fill="#000"/>
+        <text x="14" y="30" fill="#cfe9a8" font-size="11" stroke="none">fraud scoring (ML)</text>
+        <text x="14" y="60" fill="#cfe9a8" font-size="11" stroke="none">auto-adjudication</text>
+        <text x="14" y="90" fill="#cfe9a8" font-size="11" stroke="none">SLA &#183; status track</text>
+        <text x="14" y="120" fill="#cfe9a8" font-size="11" stroke="none">document intake</text>
+        <text x="14" y="150" fill="#cfe9a8" font-size="11" stroke="none">audit &#183; compliance</text>
+        <text x="14" y="180" fill="#cfe9a8" font-size="11" stroke="none">dashboards / KPIs</text>
+      </g>
+    </g>
+    <text x="40" y="368" fill="#3a8a3a" font-size="12">intake &#8594; adjudication &#8594; payment, fully automated</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f0a"/><stop offset="100%" stop-color="#1a2c1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="40" y="62" fill="#92d050" font-size="13" letter-spacing="3">APPLICATION DEV</text>
+    <text x="40" y="92" fill="#fff" font-size="22" font-weight="700">Enterprise MLOps</text>
+    <g transform="translate(30,120)" fill="#000" stroke="#92d050" stroke-width="2" font-family="Helvetica">
+      <g><rect x="0" y="20" width="70" height="42" rx="6"/><text x="10" y="45" fill="#cfe9a8" font-size="11" stroke="none">Train</text></g>
+      <g><rect x="90" y="20" width="70" height="42" rx="6"/><text x="100" y="45" fill="#cfe9a8" font-size="11" stroke="none">Register</text></g>
+      <g><rect x="180" y="20" width="70" height="42" rx="6"/><text x="188" y="45" fill="#cfe9a8" font-size="11" stroke="none">Evaluate</text></g>
+      <g><rect x="270" y="20" width="70" height="42" rx="6"/><text x="280" y="45" fill="#cfe9a8" font-size="11" stroke="none">Deploy</text></g>
+      <g stroke-dasharray="4 3">
+        <line x1="70" y1="41" x2="90" y2="41"/><line x1="160" y1="41" x2="180" y2="41"/><line x1="250" y1="41" x2="270" y2="41"/>
+      </g>
+      <g><rect x="0" y="92" width="340" height="46" rx="6" fill="#0f1a0f"/><text x="14" y="112" fill="#92d050" font-size="12" stroke="none">CI/CD &#183; YAML pipelines &#183; model registry</text><text x="14" y="130" fill="#cfe9a8" font-size="11" stroke="none">MLflow &#183; Unity Catalog &#183; feature store</text></g>
+      <g><rect x="0" y="150" width="340" height="46" rx="6" fill="#0f1a0f"/><text x="14" y="170" fill="#92d050" font-size="12" stroke="none">monitor &#183; drift &#183; APM + LLM tracing</text><text x="14" y="188" fill="#cfe9a8" font-size="11" stroke="none">Datadog &#183; evals &#183; governance &#183; rollback</text></g>
+    </g>
+    <text x="40" y="368" fill="#3a8a3a" font-size="12">experiment &#8594; production, governed end-to-end</text>
+  </g>
+</svg>
