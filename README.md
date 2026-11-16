@@ -16,9 +16,11 @@ This repository hosts my portfolio site. The notebooks and academic work below l
 ## 🚀 Featured Enterprise AI / GenAI Work
 
 - **Agentic AI Digital Teammate** — production-support copilot on Copilot Agent SDK + MCP, multi-orchestrator framework, ephemeral compute sandboxes, RCA, observability ingestion, human-in-the-loop auto-PR.
+- **JD™ Customer AI Assistant Launch (John Deere Operations Center™)** — platform foundation & Forward-Deployed Engineering partnering with the JD™ team to launch John Deere's customer-facing AI assistant (live Nov 16 in Operations Center™ web & mobile across agriculture, golf & turf, construction, and road building), letting customers "talk to their data" in plain English over years of customer-authorized field, machine, and operational data.
 - **Enterprise AI Gateway** — provider integrations, model registration, scalable rate limiting, governance workflows.
 - **Agentic AI / OmniAgent Platform** — reusable multi-agent orchestration, MCP tool integration, governed agent registry.
 - **Log Insights AI Analytics** — Enterprise NLQ-to-SQL Analytics + AI Data Harvest Insights (GenAI over dealer-chatbot transcripts; bulk anonymization on 300K+ records, Databricks Asset Bundles CI/CD, Harvest UI on UDP MFE).
+- **Director-Recommended Team Agentic AI Platform Showcase** — unified blueprint across AI Gateway + OmniAgent + Digital Team Member, shared as reusable architecture/governance standards for enterprise delivery teams.
 - **AI Studio** — LLM-powered surface that turns product requirements into interactive web prototypes.
 - **Unified Data Platform (UDP) — Full-Stack** — React + TypeScript SPA, Node.js / Python Dataset APIs, GenAI synthetic-data service (~5 ms response on DynamoDB).
 - **Enterprise Data Lake (EDL) Optimization** — ~7 PB vacuum cleanup; Grant Job 1.9 hr → 16 min (~500K ACL calls eliminated); EDL tables coverage 25K → 160K.
