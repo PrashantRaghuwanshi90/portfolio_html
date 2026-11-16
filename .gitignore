@@ -1,5 +1,8 @@
 # Personal resume & profile source documents — keep local only, do not commit
 *.docx
+*.pdf
 linkedin-profile.md
 resume-updated-2026.md
 resume-enrichments.md
+Prashant_Raghuwanshi_LinkedIn_*.md
+
